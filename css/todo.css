@@ -5,7 +5,7 @@ main {
   align-items: stretch;
 }
 
-,.animacionBotonRegistrar:hover{
+.animacionBotonRegistrar:hover{
     box-shadow: #43796e 0 3px 7px inset;
     transform: scale(1.1);
 }

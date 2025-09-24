@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+,.animacionBotonRegistrar:hover{
+    box-shadow: #43796e 0 3px 7px inset;
+    transform: scale(1.1);
+}
+.animacionBotonRegistrar:active{
+    background-color: white;
+    color:  #24423c;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1c3d37 0 -3px 0 inset;
+}
+
+.animacionBotonEliminar:hover{
+    box-shadow: #f1ccab 0 3px 7px inset;
+    transform: scale(1.1);    
+}
+.animacionBotonEliminar:active{
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d17927 0 -3px 0 inset;
+
+}
+.animacionBotonTotal:hover{
+    box-shadow: #43796e 0 3px 7px inset;
+    transform: scale(1.1);
+}
+.animacionBotonTotal:active{
+    background-color: white;
+    color:  #24423c;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1c3d37 0 -3px 0 inset;
+}
+
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; 
+    align-items: center;    
+  }
+
+  #lProductos, #lPrecios {
+    width: 90%;
+  }
+}
